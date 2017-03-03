@@ -1,0 +1,11 @@
+DROP PACKAGE LITE.PK_APP_HELLO
+/
+
+CREATE OR REPLACE PACKAGE LITE.pk_app_hello
+AS   
+   FUNCTION router
+      RETURN CLOB;
+END;
+/
+
+
